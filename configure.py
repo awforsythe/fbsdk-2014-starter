@@ -4,8 +4,9 @@ import glob
 
 INPUT_FILE_PATTERNS = [
 	'%s.sln',
-	'%s.vcproj',
-	'%s.vcproj.user',
+	'%s.vcxproj',
+	'%s.vcxproj.filters',
+	'%s.vcxproj.user',
 	os.path.join('include', '%s*.h'),
 	os.path.join('src', '%s*.cpp'),
 	os.path.join('src', 'main.cpp')
