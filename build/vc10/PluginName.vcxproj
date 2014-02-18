@@ -177,6 +177,7 @@
     <ClCompile Include="..\..\src\PluginNameExampleTool.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\include\fbsdk_safe.h" />
     <ClInclude Include="..\..\include\PluginNameExampleBox.h" />
     <ClInclude Include="..\..\include\PluginNameExampleTool.h" />
   </ItemGroup>

@@ -6,7 +6,7 @@
 	button that creates a cube and prints a message to the console.
 */
 
-#include <fbsdk/fbsdk.h>
+#include "fbsdk_safe.h"
 
 class PluginNameExampleTool : public FBTool
 {

@@ -5,7 +5,7 @@
 	This box simply adds two floating-point numbers together.
 */
 
-#include <fbsdk/fbsdk.h>
+#include "fbsdk_safe.h"
 
 class PluginNameExampleBox : public FBBox
 {
