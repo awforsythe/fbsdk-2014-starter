@@ -11,24 +11,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\PluginNameExampleBox.cpp">
+    <ClCompile Include="src\PluginNameExampleBox.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\PluginNameExampleTool.cpp">
+    <ClCompile Include="src\PluginNameExampleTool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\include\fbsdk_safe.h">
+    <ClInclude Include="include\fbsdk_safe.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\PluginNameExampleBox.h">
+    <ClInclude Include="include\PluginNameExampleBox.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\PluginNameExampleTool.h">
+    <ClInclude Include="include\PluginNameExampleTool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
