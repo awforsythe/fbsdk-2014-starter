@@ -1,8 +1,8 @@
-fbsdk-2013-starter
+fbsdk-2014-starter
 ==================
 
 This repository contains a bare-bones project for Visual Studio 2010 which is
-cleanly configured to build a plugin for MotionBuilder 2013. It's essentially
+cleanly configured to build a plugin for MotionBuilder 2014. It's essentially
 an empty C++ DLL project which has been preconfigured to include and link
 against the fbsdk library in both 32-bit and 64-bit flavors.
 
@@ -16,8 +16,8 @@ Installation and Setup
 ----------------------
 From a Windows command line:
 ```
-git clone git://github.com/awforsythe/fbsdk-2013-starter.git
-rename fbsdk-2013-starter YourProjectName
+git clone git://github.com/awforsythe/fbsdk-2014-starter.git
+rename fbsdk-2014-starter YourProjectName
 cd YourProjectName
 configure.py YourProjectName
 del configure.py
@@ -31,7 +31,7 @@ Getting Started
    Once the project is renamed, open the .sln file.
 
 1. Open the Property Manager and check the User Macros for the
-   fbsdk-2013-win32-plugin and fbsdk-2013-x64-plugin property sheets. Ensure
+   fbsdk-2014-win32-plugin and fbsdk-2014-x64-plugin property sheets. Ensure
    that the MotionBuilder installation path is noted correctly in each.
 
 2. Select the appropriate platform and the Debug build. Note that you must
