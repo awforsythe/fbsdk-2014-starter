@@ -3,10 +3,10 @@ import sys
 import glob
 
 INPUT_FILE_PATTERNS = [
-	os.path.join('build', 'vc10', '%s.sln'),
-	os.path.join('build', 'vc10', '%s.vcxproj'),
-	os.path.join('build', 'vc10', '%s.vcxproj.filters'),
-	os.path.join('build', 'vc10', '%s.vcxproj.user'),
+	'%s.sln',
+	'%s.vcxproj',
+	'%s.vcxproj.filters',
+	'%s.vcxproj.user',
 	os.path.join('include', '%s*.h'),
 	os.path.join('src', '%s*.cpp'),
 	os.path.join('src', 'main.cpp')
