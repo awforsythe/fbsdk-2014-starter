@@ -27,7 +27,7 @@ void PluginNameExampleBox::FBDestroy()
 }
 
 /* AnimationNodeNotify */
-bool PluginNameExampleBox::AnimationNodeNotify(HFBAnimationNode pAnimationNode, HFBEvaluateInfo pEvaluateInfo)
+bool PluginNameExampleBox::AnimationNodeNotify(FBAnimationNode* pAnimationNode, FBEvaluateInfo* pEvaluateInfo)
 {
 	double inDataOperandA, inDataOperandB;
 	double outDataResult;
