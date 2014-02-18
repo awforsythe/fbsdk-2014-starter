@@ -14,11 +14,13 @@ sbuclass.
 
 Installation and Setup
 ----------------------
+From a Windows command line:
 ```
 git clone git://github.com/awforsythe/fbsdk-2013-starter.git
 rename fbsdk-2013-starter YourProjectName
 cd YourProjectName
 configure.py YourProjectName
+del configure.py
 YourProjectName.sln
 ```
 
