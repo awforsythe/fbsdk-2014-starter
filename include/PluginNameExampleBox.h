@@ -20,13 +20,13 @@ public:
 	virtual void FBDestroy();
 
 	/** Called by MotionBuilder on every frame that data is requested from the box. */
-	virtual bool AnimationNodeNotify(HFBAnimationNode pAnimationNode, HFBEvaluateInfo pEvaluateInfo);
+	virtual bool AnimationNodeNotify(FBAnimationNode* pAnimationNode, FBEvaluateInfo* pEvaluateInfo);
 
 protected:
 	/** Input animation nodes. */
-	HFBAnimationNode mInNodeOperandA;
-	HFBAnimationNode mInNodeOperandB;
+	FBAnimationNode* mInNodeOperandA;
+	FBAnimationNode* mInNodeOperandB;
 
 	/** Output animation nodes. */
-	HFBAnimationNode mOutNodeResult;
+	FBAnimationNode* mOutNodeResult;
 };

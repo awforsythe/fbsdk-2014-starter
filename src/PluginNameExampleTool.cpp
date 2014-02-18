@@ -47,7 +47,7 @@ void PluginNameExampleTool::FBDestroy()
 void PluginNameExampleTool::OnButtonTestClick(HISender pSender, HKEvent pEvent)
 {
 	// Create a new cube and show it
-	HFBModelCube testCube = new FBModelCube("PluginName:Cube");
+	FBModelCube* testCube = new FBModelCube("PluginName:Cube");
 	testCube->FBCreate();
 	testCube->Show = true;
 
